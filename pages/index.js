@@ -4,13 +4,14 @@ import Toolbar from "../components/Toolbar";
 export default function Home() {
   return (
     <div className="page-container">
-      {/* <Toolbar /> */}
       <Toolbar />
 
       <div className={styles.main}>
         <h1>Next.js News App</h1>
 
-        <h3>Your one stop shop for the latest news articles</h3>
+        <h3>
+          Click the 'Feed' tab above to view the most recent news headlines.{" "}
+        </h3>
       </div>
     </div>
   );

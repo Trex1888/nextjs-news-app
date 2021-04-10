@@ -3,13 +3,20 @@
   height: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
 }
 
 .main div {
   margin: 25px;
   cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .main div:hover {
-  color: rgba(168, 168, 168);
+  opacity: 0.9;
 }
